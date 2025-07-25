@@ -19,6 +19,7 @@ export default function ToDo() {
       id: Math.random(),
       task: task,
     };
+    if(task){
     if (priorityValue === "do") {
       const updated = [...doListTasks, newTask];
       setdoListTasks(updated);
@@ -35,7 +36,7 @@ export default function ToDo() {
       const updated = [...deleteListTasks, newTask];
       setdeleteListTasks(updated);
       localStorage.setItem("deleteListTasks", JSON.stringify(updated));
-    }
+    }}
 
     setTask("");
     setpriorityValue("");
