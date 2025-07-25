@@ -1,0 +1,97 @@
+.wrapper{
+   
+}
+.text h2{
+    color: #00A9EC;
+     font-family: "Oswald", sans-serif;
+}
+.text p{
+font-family: "Caveat Brush", cursive;
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+/* //grid */
+.eisenhower_matrix {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr;
+  grid-template-rows: 60px 1fr 1fr;
+  gap: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+.top_label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.side_label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+.box h2 {
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+}
+.do {
+  background-color: #2ecc71; /* Green */
+}
+.do:hover ,.delegate:hover  , .decide:hover ,.delete:hover{
+opacity: 0.7;
+  transform: scaleX(1);
+  transition:
+    display 0.7s allow-discrete,
+    overlay 0.7s allow-discrete,
+    background-color 0.7s;
+
+}
+
+.delegate {
+  background-color: #e74c3c; /* Red */
+}
+
+.decide {
+  background-color: #1abcde; /* Blue */
+}
+
+.delete {
+  background-color: #7f8c8d; /* Gray */
+}
+.content{
+
+ width: 40%;
+padding: 30px;
+text-align: left;
+ border-radius: 50px;
+   font-family: "Winky Rough", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .content{
+
+ width: 100%;}
+}

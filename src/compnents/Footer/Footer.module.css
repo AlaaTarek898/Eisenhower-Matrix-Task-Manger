@@ -1,0 +1,14 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00A9EC;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    background-color:#f9f871;
+    padding: 20px;
+    
+    
+}
